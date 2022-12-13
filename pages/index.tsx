@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Bankless report</title>
       </Head>
-      <main className="w-full overflow-x-hidden">
+      <main className="w-full overflow-x-hidden bg-black">
         <Hero />
         <Web3Native />
         <CustomizedContent />

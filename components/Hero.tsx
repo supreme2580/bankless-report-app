@@ -3,7 +3,7 @@ import { SaveIcon } from "@heroicons/react/outline"
 
 export default function Hero() {
     return(
-        <div className="w-full h-screen bg-[url('/background.png')] bg-no-repeat bg-center px-3.5 py-5 lg:px-10 lg:py-8 flex flex-col">
+        <div className="w-full h-screen bg-[url('/background.png')] bg-no-repeat bg-center bg-cover px-3.5 py-5 lg:px-10 lg:py-8 flex flex-col">
             <Navbar />
             <div className="flex-1 h-full flex flex-col items-center justify-center space-y-3.5">
                 <h1 className="font-semibold text-white h1">Bankless Labs</h1>
