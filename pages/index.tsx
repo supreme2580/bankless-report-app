@@ -2,11 +2,11 @@ import Head from "next/head";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import Quality from "../components/Quality";
-import Rapidly from "../components/Rapidly";
 import Research from "../components/Research";
-import Strategy from "../components/Strategy";
-import UpDate from "../components/UpDate";
+import Web3Native from "../components/Web3Native";
+import CustomizedContent from "../components/CustomizedContent";
+import Theoretical from "../components/Theoretical";
+import Expertise from "../components/Expertise";
 
 export default function Home() {
   return(
@@ -16,11 +16,11 @@ export default function Home() {
       </Head>
       <main className="w-full overflow-x-hidden">
         <Hero />
-        <Rapidly />
-        <Quality />
-        <UpDate />
+        <Web3Native />
+        <CustomizedContent />
+        <Theoretical />
         <Research />
-        <Strategy />
+        <Expertise />
         <Contact />
         <Footer />
       </main>
