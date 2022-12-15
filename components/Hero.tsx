@@ -19,7 +19,7 @@ export default function Hero() {
                             OUR PITCH DECK
                         </span>
                     </button>
-                    <button className="flex space-x-1 bg-red-700 py-2.5 px-5 rounded-lg items-center text-white font-semibold">
+                    <button className="flex space-x-1 bg-red-700 py-2.5 px-7 rounded-lg items-center text-white font-semibold">
                         WORK WITH US
                     </button>
                 </div>
