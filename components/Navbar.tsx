@@ -12,10 +12,9 @@ export default function Navbar() {
                 </div>
                 <div>
                     <div className="hidden md:flex space-x-5 items-center">
+                        <Link href="/" className="text-xl text-white hover:text-red-700 tracking-wide">About us</Link>
                         <Link href="/" className="text-xl text-white hover:text-red-700 tracking-wide">Services</Link>
-                        <Link href="/" className="text-xl text-white hover:text-red-700 tracking-wide">Free Reports</Link>
-                        <Link href="/" className="text-xl text-white hover:text-red-700 tracking-wide">Partnerships</Link>
-                        <Link href="/" className="text-xl text-white hover:text-red-700 tracking-wide">Launch App</Link>
+                        <Link href="/" className="text-xl text-white hover:text-red-700 tracking-wide">Strategies</Link>
                         <button className="bg-red-700 text-white px-3.5 py-2.5 rounded-lg tracking-wide">CONTACT US</button>
                     </div>
                     <div className="block md:hidden">
@@ -29,16 +28,13 @@ export default function Navbar() {
                 <div className="p-3.5"><Image src={"/logo.png"} alt="logo" width={75} height={75} className="block md:hidden" /></div>
                 <div className="px-3.5 space-y-0.5">
                     <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
+                        <Link href="/" className="text-xl text-white tracking-wide">About us</Link>
+                    </div>
+                    <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
                         <Link href="/" className="text-xl text-white tracking-wide">Services</Link>
                     </div>
                     <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
-                        <Link href="/" className="text-xl text-white tracking-wide">Free Reports</Link>
-                    </div>
-                    <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
-                        <Link href="/" className="text-xl text-white tracking-wide">Partnerships</Link>
-                    </div>
-                    <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
-                        <Link href="/" className="text-xl text-white tracking-wide">Launch App</Link>
+                        <Link href="/" className="text-xl text-white tracking-wide">Strategies</Link>
                     </div>
                     <div className="hover:cursor-pointer hover:bg-red-700 p-2.5 rounded-lg">
                         <Link href="/" className="text-xl text-white tracking-wide">Contact Us</Link>

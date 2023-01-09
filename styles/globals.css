@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .h1 {
-    @apply  text-4xl sm:text-6xl md:text-8xl
+    @apply  text-4xl sm:text-6xl
 }
 
 .h3 {
