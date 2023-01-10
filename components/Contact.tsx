@@ -3,13 +3,13 @@ export default function Contact() {
         <div className="bg-black w-full px-3.5 py-5 lg:p-10 flex flex-col justify-center items-center space-y-3.5">
             <h3 className="h3 text-white font-semibold">Contact Us</h3>
             <form className="max-w-2xl space-y-2.5">
-                <div className="w-full flex space-x-2.5 h-full">
+                <div className="w-full flex space-x-2.5">
                     <div className="w-full flex-1">
-                        <p className="p text-white">What should we call you?</p>
+                        <p className="p text-white h-12">What should we call you?</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="Robin Smith" />
                     </div>
-                    <div className="w-full flex-1">
-                        <p className="p text-white">Your mail *</p>
+                    <div className="w-full flex-1 h-full">
+                        <p className="p text-white h-12">Your mail *</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="robin.smith@xyz.io" />
                     </div>
                 </div>
