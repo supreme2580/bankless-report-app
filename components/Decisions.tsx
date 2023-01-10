@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function Decisions() {
     return(
         <div className="bg-black w-full px-3.5 py-5 lg:p-10 flex justify-center items-center">
-            <div className="max-w-4xl flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-10">
+            <div className="max-w-6xl flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-10">
                 <Image src={"/right-decision.png"} width={300} height={300} alt={"image"} />
-                <div className="space-y-2.5 px-1 sm:px-5 md:px-0">
+                <div className="space-y-2.5 px-1 sm:px-5 md:px-0 md:max-w-2xl">
                     <h3 className="h3 text-white font-semibold text-center md:text-start">
                         <span className="text-red-700">Your partner</span> for making the right decisions <span className="text-red-700">in web3</span>
                     </h3>

@@ -7,7 +7,7 @@ export default function Support() {
             <p className="p text-white max-w-xl text-center">
                 With our selection of research services:
             </p>
-            <div className="max-w-4xl grid sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-5">
+            <div className="max-w-6xl grid sm:grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-5">
                 <div className="w-[300px] h-auto border border-white rounded-lg p-3.5 space-y-1.5 flex flex-col">
                     <Image src={"/charts.png"} width={50} height={50} alt="icon" />
                     <h4 className="h4 text-white">Analysis</h4>
