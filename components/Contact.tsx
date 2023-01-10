@@ -8,8 +8,8 @@ export default function Contact() {
                         <p className="p text-white h-12 sm:h-auto">What should we call you?</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="Robin Smith" />
                     </div>
-                    <div className="w-full flex-1 h-full sm:h-auto">
-                        <p className="p text-white h-12">Your mail *</p>
+                    <div className="w-full flex-1">
+                        <p className="p text-white h-12 sm:h-auto">Your mail *</p>
                         <input type="text" className="w-full p-2.5 border-2 border-red-700 bg-transparent rounded-md outline-none text-white" placeholder="robin.smith@xyz.io" />
                     </div>
                 </div>
